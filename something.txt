@@ -1,0 +1,10 @@
+1) started at 350 pixels.
+2) it goes down to 310 pixels
+3) instead of showing up in columns they are changed to rows.  on the right hand side.
+4)Instead of having one column on the left hand side the boxes move next to each other on the same row.
+5)It boxes don't change to fit the screen so you have everything on one page.  The scrolling bar comes up on the bottom to scroll to the right to see the other boxes.
+6)it makes both boxes on the same line.  row
+7)It elongates the box to fit the entire width of the page.
+8/9) it makes sure that the boxes change along with the pixels on the page.  it changes with the size of the screen.
+10)it worked
+11) it worked 
