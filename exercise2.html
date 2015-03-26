@@ -7,8 +7,54 @@
 <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="style.css">
 <style>
+header{
+  margin-top : -35px;
+  margin-left: 5% ;
+  background-color: #52637B;
+  color:white ;
+  width: 1240px ;
+  text-align: center;
+}
+header h1{
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  background-color: #52637B;
+  font-weight: 400;
+  letter-spacing: 6px;
+  font-family: Lora ;
+  border-bottom: 2px solid #FFFAF3;
+}
+nav {
+  background-color: #F0F0D8;
+  width: 240px;
+  padding: 10px;
+  margin:0px;
+  margin-left: 5%;
+  boxing-sizing: border-box;
+  float: left;
+  border-right-color: 2px solid #52637B;
+}
+#mainContent{
+  width: 650px;
+  padding: 35px;
+  margin: -30px;
+  box-sizing: border-box;
+  float: left;
 
-
+}
+#rightSidebar{
+  float:left;
+  width: 255px;
+  padding: 35px;
+  box-sizing: border-box;
+  background-color: #FFFAF3;
+  border-left-color:2px solid #52637B;
+  text: bold; 
+}
+img{
+  float: right;
+}
 </style>
 </head>
 <body>
@@ -27,6 +73,8 @@ Use the float, padding, margin, and sizing skills you've practiced to replicate 
 	   <h1>The Wizard of Oz!</h1>
      Allegory for Bi-metalism? Who cares! It's in the Public Domain!
   </header>
+  <div id ="container" class="navs">
+    <div id="Navsidebar" class="left">
 	<nav>
 	<h2>Nav Sidebar</h2>
 	<p> Nav Sidebars are usually used for links and stuff like that. The breaks are a quick and dirty way to format. We'll learn better ways next week.</p>
@@ -36,6 +84,7 @@ Use the float, padding, margin, and sizing skills you've practiced to replicate 
     <br>
 		<a href="http://en.wikipedia.org/wiki/Bimetallism">Bimetallism</a>
 	</ul>
+</div>
   </nav>
 	<div id="mainContent">
   <h2>From The Wizard of Oz</h2>
